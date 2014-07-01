@@ -17,7 +17,7 @@ import "fmt"
 import "github.com/turingou/colors"
 
 func main() {
-  fmt.Printf("Im a %s text\n", Colors.print("yellow", "yellow text"))
+  fmt.Printf("Im a %s \n", Colors.print("yellow", "yellow text"))
 }
 ````
 or just run the example codes out of box:
