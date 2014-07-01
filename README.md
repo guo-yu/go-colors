@@ -1,6 +1,6 @@
-## go-colors
+## Go Colors
 
-a colors utils written in Go
+a colors util written in Go
 
 ### Installation
 ````
@@ -15,9 +15,14 @@ import "fmt"
 import "github.com/turingou/colors"
 
 func main() {
-  fmt.Printf("Im a %s text\n", colors.Yellow("Yellow"))
+  fmt.Printf("Im a %s text\n", Colors.print("yellow", "yellow text"))
 }
 ````
+or just run the demo out of box:
+
+```
+$ go run github.com/turingou/colors/examples/colors.go
+```
 
 ### API
 check this file: `colors.go`
