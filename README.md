@@ -6,7 +6,7 @@ a colors util written in Go, inspired by [Colors.js](https://github.com/Marak/co
 
 ### Installation
 ````
-$ go get github.com/turingou/colors
+$ go get github.com/turingou/go-colors
 ````
 
 ### Example
@@ -14,7 +14,7 @@ $ go get github.com/turingou/colors
 package main
 
 import "fmt"
-import "github.com/turingou/colors"
+import "github.com/turingou/go-colors"
 
 func main() {
   fmt.Printf("Im a %s \n", Colors.print("yellow", "yellow text"))
@@ -23,7 +23,7 @@ func main() {
 or just run the example codes out of box:
 
 ```
-$ go run github.com/turingou/colors/examples/colors.go
+$ go run github.com/turingou/go-colors/examples/colors.go
 ```
 
 ### API
