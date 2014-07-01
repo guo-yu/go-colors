@@ -1,6 +1,6 @@
 ## Go Colors
 
-a colors util written in Go
+a colors util written in Go, inspired by [Colors.js](https://github.com/Marak/colors.js/)
 
 ![screenshot](./screenshot.png)
 
