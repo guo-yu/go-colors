@@ -2,6 +2,8 @@
 
 a colors util written in Go
 
+![screenshot](./screenshot.png)
+
 ### Installation
 ````
 $ go get github.com/turingou/colors
@@ -18,7 +20,7 @@ func main() {
   fmt.Printf("Im a %s text\n", Colors.print("yellow", "yellow text"))
 }
 ````
-or just run the demo out of box:
+or just run the example codes out of box:
 
 ```
 $ go run github.com/turingou/colors/examples/colors.go

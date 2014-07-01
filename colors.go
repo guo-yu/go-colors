@@ -24,11 +24,10 @@ var colorsMap = map[string]Color{
   "magenta"   : {"\x1B[35m", "\x1B[39m"},
   "red"       : {"\x1B[31m", "\x1B[39m"},
   "yellow"    : {"\x1B[33m", "\x1B[39m"},
-  // grayscale
+  // background colors
   "whiteBG"   : {"\x1B[47m", "\x1B[49m"},
   "greyBG"    : {"\x1B[49;5;8m", "\x1B[49m"},
   "blackBG"   : {"\x1B[40m", "\x1B[49m"},
-  // colors
   "blueBG"    : {"\x1B[44m", "\x1B[49m"},
   "cyanBG"    : {"\x1B[46m", "\x1B[49m"},
   "greenBG"   : {"\x1B[42m", "\x1B[49m"},
