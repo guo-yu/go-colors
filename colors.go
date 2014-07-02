@@ -1,7 +1,5 @@
 package colors
 
-import "strings"
-
 type Color struct {
 	before, after string
 }
@@ -38,6 +36,6 @@ var colorsMap = map[string]Color{
 
 func Print(color, text string) string {
 	c := colorsMap[color]
-	str := []string{c.before, text, c.after}
-	return strings.Join(str, "")
+	str := c.before + text + c.after
+	return str
 }
