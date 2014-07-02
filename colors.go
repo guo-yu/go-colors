@@ -1,5 +1,9 @@
 package colors
 
+import (
+	"fmt"
+)
+
 type Color struct {
 	before, after string
 }
@@ -35,7 +39,10 @@ var colorsMap = map[string]Color{
 }
 
 func Print(color, text string) string {
-	c := colorsMap[color]
+	c, ok := colorsMap[color]
+	if !ok {
+		panic(fmt.Sprintf("Key: %s not found", color))
+	}
 	str := c.before + text + c.after
 	return str
 }
