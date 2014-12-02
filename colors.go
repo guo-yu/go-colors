@@ -1,5 +1,7 @@
 package colors
 
+const VERSION = "0.1.0"
+
 var ColorsMap = map[string][]string{
 	// Styles
 	"bold":          []string{"\x1B[1m", "\x1B[22m"},
