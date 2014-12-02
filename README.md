@@ -17,7 +17,7 @@ import "fmt"
 import "github.com/turingou/go-colors"
 
 func main() {
-  fmt.Printf("Im a %s \n", colors.Print("yellow", "yellow text"))
+  fmt.Printf("Im a %s \n", Color("yellow", "yellow text"))
 }
 ````
 or just run the example codes out of box:
