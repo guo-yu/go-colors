@@ -14,7 +14,7 @@ $ go get github.com/turingou/go-colors
 package main
 
 import "fmt"
-import "github.com/turingou/go-colors"
+import . "github.com/turingou/go-colors" // Import to global
 
 func main() {
   fmt.Printf("Im a %s \n", Color("yellow", "yellow text"))
@@ -28,6 +28,13 @@ $ go run github.com/turingou/go-colors/examples/colors.go
 
 ### API
 check this file: `colors.go`
+
+### Tests
+
+To run tests:
+```bash
+$ go test
+```
 
 ### Contributing
 - Fork this repo
